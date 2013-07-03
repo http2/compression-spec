@@ -173,6 +173,14 @@
                     per above.
                 </t>
                 <t>
+                    The header table SHOULD NOT contain duplicate header 
+                    (name, value) entries. However, implementations MUST be
+                    prepared to accept duplicates without signaling an error.
+                    If duplicates are added to the table, they MUST
+                    be treated as distinct entries with their own index 
+                    positions.
+                </t>
+                <t>
                     The header table is progressively updated based on headers
                     represented as literal (as defined in <xref
                         target="literal" />).  Two update mechanisms are
