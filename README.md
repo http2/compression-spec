@@ -1,5 +1,11 @@
+This Repository Has Been Retired
+================================
+
+The header-compression specification has been moved to
+[the HTTP/2.0 repository](https://github.com/http2/http2-spec)
+
 HTTP/2.0 Header Compression Draft Specification
-===============================================
+-----------------------------------------------
 
 This is the working area for the [IETF HTTPbis Working
 Group](http://trac.tools.ietf.org/wg/httpbis/trac/wiki) draft of HTTP/2.0
